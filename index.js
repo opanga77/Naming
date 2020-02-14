@@ -23,3 +23,11 @@ var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
                         $('#message span:first-child').addClass("animated fadeInDown");
                         $('#message span:last-child').addClass("animated fadeInUp");
                     }
+                    break;
+            }    
+            else {
+                document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>wewe!</strong><em>Chagua Jinsia lako</em>!</div>";
+                $('#message').addClass("animated shake");
+            }
+        }
+    }
