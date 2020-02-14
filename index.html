@@ -76,6 +76,21 @@
                                                         <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
                                                         <input type="date" placeholder="dd/mm/yyyy" id="myBirthDate" class="form-control" autocomplete="off" min="1-1-1800" max="12-31-2020">
                                                      </div>
-                                                </div>   
+                                                </div>
+                                                <div class="form-group mb15">
+                                                    <label class="label"><em>Gender</em></label>
+                                                     <div class="rdio rdio-default fs11">
+                                                      <input type="radio" name="gender" id="male" value="Male">
+                                                      <label for="male">&nbsp;&nbsp;Male</label>
+                                                  </div>
+                                                  <div class="rdio rdio-default fs11">
+                                                      <input type="radio" name="gender" value="Female" id="female">
+                                                      <label for="female">&nbsp;&nbsp;Female</label>
+                                                   </div>
+                                              </div>
+                                              <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Submit</button>
+                                              <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>		
+                                          </form>	
+                                      </div>   
 </body>
 </html>
