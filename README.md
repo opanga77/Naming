@@ -10,3 +10,4 @@ Adding the project to GitHub
 Open an existing project
 Open a recent project
 ## Feel free view through the link
+https://opanga77.github.io/Naming/
