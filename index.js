@@ -7,7 +7,7 @@ var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
         var dateOfBirth = new Date(myBirthday);
         var dayOfTheWeek = dateOfBirth.getDay();
         if(myBirthday === ""){
-            document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Morio!</strong><em>Your submision is invalid</em>!</div>";
+            document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Ooops!</strong><em>Your submision is invalid</em>!</div>";
             $('#message').addClass("animated shake");
         }
         else {
@@ -26,12 +26,11 @@ var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
                     break;
             }    
             else {
-                document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>wewe!</strong><em>Chagua Jinsia lako</em>!</div>";
+                document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Ooops!</strong><em>Please select your gender</em>!</div>";
                 $('#message').addClass("animated shake");
             }
         }
     }
     function clearAkanMessage(){
         document.getElementById('message').innerHTML = "";
-        
-    }
+        }
